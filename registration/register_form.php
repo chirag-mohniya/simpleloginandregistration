@@ -1,8 +1,8 @@
 <?php
-    $db_hostname = "";
-    $db_username = "";
-    $db_password = "";
-    $db_name = "";
+    $db_hostname = "";//Enter the hostname of your database
+    $db_username = ""; //Enter the name user name of your workbench
+    $db_password = ""; //Enter the password of your workbench
+    $db_name = ""; //Enter the name of your database that you created
 
     $conn = mysqli_connect($db_hostname,$db_username,$db_password,$db_name);
     if(!$conn){
